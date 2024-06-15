@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int i,j,k,temp,m,p;
+    printf("enter a number");
+    scanf("%d",&k);
+    {
+        i=k%10;
+        j=k/10;
+        p=j%10;
+        m=j/10;
+        printf("%d%d%d",i,p,m);
+    }
+    
+    return 0;
+}
